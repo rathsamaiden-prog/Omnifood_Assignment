@@ -10,3 +10,14 @@ html {
     font-size: 20px;
     text-rendering: optimizeLegibility;
 }
+.row {
+    max-width: 1140;
+    margin: 0 auto;
+}
+.heroBox {
+    width: 1140px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
