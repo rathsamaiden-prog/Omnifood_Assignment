@@ -34,6 +34,26 @@ html {
     word-spacing: 4;
     text-transform: uppercase;
 }
+.navigation a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.navigation {
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    float: inline-end;
+    margin: 50px 50px;
+}
+.navigation li {
+    padding: 20px;
+    padding-bottom: 10px;
+}
+.navigation li:hover {
+    border-bottom: solid orange;
+
+}
 .btn {
     display: inline-block;
     padding: 10px 30px;
@@ -63,6 +83,7 @@ html {
     color: #fff;
 }
 .row img{
+    margin: 30px 70px;
     height: 100px;
     width: auto;
 }
