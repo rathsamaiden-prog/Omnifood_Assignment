@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+.header {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7), url(image/hero.jpg));
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
 html {
     color: #555;
     font-family: 'Lato', sans-serif;
