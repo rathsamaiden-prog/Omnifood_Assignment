@@ -105,4 +105,6 @@ html {
     margin: auto;
     margin-top: 2%;
 }
-
+.fastfoodContent{
+    display: flexbox;
+}
