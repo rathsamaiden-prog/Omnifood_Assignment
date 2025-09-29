@@ -113,7 +113,13 @@ html {
     margin: auto;
     margin-top: 2%;
 }
+
 .foodFastContent{
     width: 25%;
+}
+
+
+.fastfoodContent{
+    display: flexbox;
 }
 
