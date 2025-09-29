@@ -94,6 +94,7 @@ html {
 .foodFastContent-Row{
     display: flex;
     flex-direction: row;
+    margin: 5%;
 }
 #foodFastHead{
     text-align: center;
@@ -115,6 +116,8 @@ html {
 }
 .foodFastContent{
     width: 25%;
+    margin-top: 5%;
+    margin: 1%;
 }
 .icon-big{
     font-size: 350%;
@@ -135,11 +138,11 @@ html {
     overflow: hidden;
 }
 .imageGallery img{
-    opacity: .7;
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
     transform: scale(1.15);
     transition: transform 0.5s, opacity 0.5s;
-    height: auto;
-    width: 100%;
 }
 .imageGallery img:hover{
     opacity: 1;
