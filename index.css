@@ -148,3 +148,17 @@ html {
     opacity: 1;
     transform: scale(1);
 }
+.howTo{
+    max-width: 1140px;
+}
+.howTo img{
+    width: 40%;
+}
+.howToPara div{
+    text-align: center;
+    border: 2px solid #e67e22;
+    border-radius: 50%;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+}
