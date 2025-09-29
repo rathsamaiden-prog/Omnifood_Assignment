@@ -219,10 +219,15 @@ html {
     padding-left: 20px;
     width: 85%;
 }
-#appBtn{
+#btnWrapper{
     margin-top: 90px;
 }
-#appBtn img{
+
+.btn-app:link, .btn-app:visited{
+    border: 0;
+}
+.btn-app img{
+    height: 50px;
     width: auto;
     height: 50px;
     padding-right: 10px;
