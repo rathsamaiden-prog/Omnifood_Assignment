@@ -94,6 +94,7 @@ html {
 .foodFastContent-Row{
     display: flex;
     flex-direction: row;
+    margin: 5%;
 }
 #foodFastHead{
     text-align: center;
@@ -115,6 +116,8 @@ html {
 }
 .foodFastContent{
     width: 25%;
+    margin-top: 5%;
+    margin: 1%;
 }
 .icon-big{
     font-size: 350%;
@@ -122,4 +125,27 @@ html {
     color: #e67e22;
     margin-bottom: 10px;
     --ionicon-stroke-width: 20px;
+}
+.imageGallery{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    margin-top: 5%;
+    width: 100%;
+    overflow: hidden;
+}
+.imageGallery div{
+    width: 25%;
+    overflow: hidden;
+}
+.imageGallery img{
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+.imageGallery img:hover{
+    opacity: 1;
+    transform: scale(1);
 }
