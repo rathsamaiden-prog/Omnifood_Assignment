@@ -123,3 +123,25 @@ html {
     margin-bottom: 10px;
     --ionicon-stroke-width: 20px;
 }
+.imageGallery{
+    width: 100%;
+    margin: 0;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+.imageGallery div{
+    width: 25%;
+    overflow: hidden;
+}
+.imageGallery img{
+    opacity: .7;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+    height: auto;
+    width: 100%;
+}
+.imageGallery img:hover{
+    opacity: 1;
+    transform: scale(1);
+}
