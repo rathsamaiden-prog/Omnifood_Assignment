@@ -148,17 +148,82 @@ html {
     opacity: 1;
     transform: scale(1);
 }
-.howTo{
+#howTo-Wrapper{
+    background-color: rgb(244, 244, 244);
+    display: flex;
+    justify-content: right;
+}
+#howTo{
     max-width: 1140px;
+    width: 75%;
 }
-.howTo img{
-    width: 40%;
+#howTo-Header{
+    margin-top: 60px;
 }
-.howToPara div{
-    text-align: center;
+#howTo-Header h2{
+    font-weight: 300;
+    font-size: 28pt;
+    width: fit-content;
+}
+#howTo-Header h2::after{
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: #e67e22;
+    content: " ";
+    margin: auto;
+    margin-top: 30px;
+}
+#howTo-Content{
+    display: flex;
+    margin-top: 70px;
+    height: 105vh;
+}
+#howTo-Img{
+    width: 30%;
+}
+#howTo-Img img{
+    padding: 0 40px;
+    width: 100%;
+}
+#howTo-Para_Wrapper{
+    padding: 40px 100px 20px 60px;
+    width: 70%;
+}
+.howTo-Para{
+    display: flex;
+    margin-bottom: 30px;
+    height: 10%;
+}
+.circleWrapper{
+    display: block;
+    height: auto;
+    width: 15%;
+}
+.circle{
+    margin: auto;
+    margin-top: 4%;
     border: 2px solid #e67e22;
+    height: 55px;
+    width: 55px;
     border-radius: 50%;
-    padding: 10px;
-    width: 50px;
+    text-align: center;
+}
+.circleNum{
+    font-weight: 300;
+    color: #e67e22;
+    margin-top: 15%;
+}
+.howTo-Para p{
+    display: inline-block;
+    padding-left: 20px;
+    width: 85%;
+}
+#appBtn{
+    margin-top: 90px;
+}
+#appBtn img{
+    width: auto;
     height: 50px;
+    padding-right: 10px;
 }
