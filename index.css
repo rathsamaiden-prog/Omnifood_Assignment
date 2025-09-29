@@ -91,7 +91,7 @@ html {
     display: flex;
     flex-direction: column;
 }
-#foodFastContent-Row{
+.foodFastContent-Row{
     display: flex;
     flex-direction: row;
 }
@@ -113,13 +113,13 @@ html {
     margin: auto;
     margin-top: 2%;
 }
-
 .foodFastContent{
     width: 25%;
 }
-
-
-.fastfoodContent{
-    display: flexbox;
+.icon-big{
+    font-size: 350%;
+    display: block;
+    color: #e67e22;
+    margin-bottom: 10px;
+    --ionicon-stroke-width: 20px;
 }
-
