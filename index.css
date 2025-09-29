@@ -87,6 +87,14 @@ html {
     height: 100px;
     width: auto;
 }
+#foodFastHeader-Column{
+    display: flex;
+    flex-direction: column;
+}
+#foodFastContent-Row{
+    display: flex;
+    flex-direction: row;
+}
 #foodFastHead{
     text-align: center;
     margin-top: 5%;
@@ -104,5 +112,8 @@ html {
     width: 65%;
     margin: auto;
     margin-top: 2%;
+}
+.foodFastContent{
+    width: 25%;
 }
 
