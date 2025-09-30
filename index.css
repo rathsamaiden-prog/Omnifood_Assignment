@@ -414,3 +414,60 @@ html {
 .package ul{
     list-style: none;
 }
+/*---------FOOTER---------*/
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(42, 41, 41);
+    color: #7f7f7f;
+    height: 30vh;
+    width: 100%
+}
+#footer-webInfo{
+    display: flex;
+    width: 70%;
+    margin: 50px 0 0 50px;
+    height: fit-content;
+}
+#footer-webInfo a{
+    font-size: 14pt;
+    text-decoration: none;
+    color: #7f7f7f;
+    padding-right: 20px;
+    transition: 0.5s;
+}
+#footer-webInfo a:hover{
+    color: white;
+}
+#footer-Socials{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin: 44px;
+    height: fit-content;
+}
+#footer-Socials a{
+    color: #7f7f7f;
+    font-size: 150%;
+    padding: 0 15px;
+    transition: 0.5s;
+}
+#facebookLogo:hover{
+    color: rgb(58, 58, 170);
+}
+#twitterLogo:hover{
+    color: rgb(124, 165, 236);
+}
+#youtubeLogo:hover{
+    color: rgb(216, 55, 55);
+}
+#instagramLogo:hover{
+    color: rgb(183, 63, 109);
+}
+#footer-Copyright{
+    font-size: 12pt;
+    margin-bottom: 5%;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
