@@ -231,6 +231,40 @@ html {
     padding-left: 20px;
     width: 85%;
 }
+.locations{
+    max-width: 1140px;
+    margin: auto;
+}
+#locationsHead{
+    text-align: center;
+}
+#locationsHead::after{
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: #e67e22;
+    content: " ";
+    margin: auto;
+    margin-top: 30px;
+}
+.icon-small{
+    color: #e67e22;
+}
+.locationCities{
+    display: flex;
+    flex-direction: row;
+}
+.cities{
+    width: 25%;
+    padding: 1%;
+}
+.cityFeature{
+    margin-bottom: 5px;
+}
+.cities img{
+    width: 100%;
+    height: auto;
+}
 #btnWrapper{
     margin-top: 90px;
 }
