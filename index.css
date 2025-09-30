@@ -279,6 +279,7 @@ html {
     height: 50px;
     padding-right: 10px;
 }
+/* Testimonials */
 #testimonial-Wrapper{
     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(image/back-customers.jpg);
     background-size: cover;
@@ -358,4 +359,35 @@ html {
 #miltonImg{
     background-image: url(image/customer-3.jpg);
     background-size: cover;
+/* Sign Up */
+.signUp{
+    background-color: #f4f4f4;
+}
+.signUp h2{
+    text-align: center;
+    padding: 1%;
+}
+.signUp h2::after{
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: #e67e22;
+    content: " ";
+    margin: auto;
+    margin-top: 30px;
+}
+#package-row{
+    display: flex;
+    flex-direction: row;
+}
+.package{
+    background-color: #fcfcfc;
+    margin: auto;
+    margin-left: 5%;
+}
+.package div{
+    padding: 15px;
+}
+.package ul{
+    list-style: none;
 }
