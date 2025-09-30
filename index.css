@@ -152,6 +152,7 @@ html {
     background-color: rgb(244, 244, 244);
     display: flex;
     justify-content: right;
+    height: 115vh;
 }
 #howTo{
     max-width: 1140px;
@@ -277,4 +278,84 @@ html {
     width: auto;
     height: 50px;
     padding-right: 10px;
+}
+#testimonial-Wrapper{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(image/back-customers.jpg);
+    background-size: cover;
+    height: 70vh;
+    background-attachment: fixed;
+}
+#testimonial-Header{
+    display: flex;
+    justify-content: center;
+    height: 31%;
+    width: 100%;
+}
+#testimonial-Header h2{
+    margin-top: 5%;
+    color: white;
+    font-weight: 300;
+    font-size: 28pt;
+}
+#testimonial-Header h2::after{
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: #e67e22;
+    content: " ";
+    margin: auto;
+    margin-top: 30px;
+}
+#customerQuote-Wrapper{
+    display: flex;
+    width: 100%;
+    padding: 0 5%;
+}
+.blockQuote{
+    width: 32%;
+    color: white;
+    margin: auto;
+}
+.blockQuote-text{
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+
+}
+.blockQuote-text:before{
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+.customerID{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 13pt;
+}
+.customerImg{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.customerID p{
+    margin: 12px;
+    font-style: italic;
+}
+#albertoImg{
+    background-image: url(image/customer-1.jpg);
+    background-size: cover;
+}
+#joanaImg{
+    background-image: url(image/customer-2.jpg);
+    background-size: cover;
+}
+#miltonImg{
+    background-image: url(image/customer-3.jpg);
+    background-size: cover;
 }
