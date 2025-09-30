@@ -359,6 +359,7 @@ html {
 #miltonImg{
     background-image: url(image/customer-3.jpg);
     background-size: cover;
+}
 /* Sign Up */
 .signUp{
     background-color: #f4f4f4;
@@ -384,10 +385,19 @@ html {
     background-color: #fcfcfc;
     margin: auto;
     margin-left: 5%;
+    height: auto;
 }
 .package div{
     padding: 15px;
 }
 .package ul{
     list-style: none;
+    font-size: 80%;
+    font-weight: 300;
+}
+.packagePrice{
+    font-size: 300%;
+    font-weight: 100;
+}
+.mealPrice{
 }
